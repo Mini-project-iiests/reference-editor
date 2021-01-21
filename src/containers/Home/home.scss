@@ -1,0 +1,64 @@
+.home {
+  min-height: 82.4vh;
+}
+
+.homeContainer {
+  height: 100%;
+}
+
+.uploadWrapper {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.uploadFile {
+  width: 100%;
+  padding: 120px 0;
+  display: grid;
+  place-items: center;
+}
+
+.uploadFile .MuiDropzoneArea-root {
+  width: 60%;
+  height: auto;
+  min-height: 100px;
+  padding: 10px;
+  outline: none;
+}
+
+.textWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.fileName{
+  margin-bottom: 20px;
+
+  span{
+    font-size: 2em;
+    font-weight: bold;
+    color: #121212;
+  }
+}
+
+.textContainer {
+  width: 50%;
+  min-height: 75vh;
+  background: #e8e7e7;
+  padding: 10px 15px;
+  overflow-x: hidden;
+  // overflow-y: scroll;
+
+  pre {
+    font-family: inherit;
+    font-size: 16px;
+    color: #202020;
+    white-space: pre-wrap;
+    line-height: 25px;
+  }
+}
