@@ -23,20 +23,25 @@ The brief description of the project is given below:
             It may suggest actual name if misspelled.
             It may directly link the places where any reference belongs to.
             (REGENERATION CAN BE DONE IN SOFTWARES WHERE THE DOCUMENTS ARE GENERATED)
+            
         b. If the uploaded document already have a reference page available, the features which can be provided are as follows:
+        
             * Inserting references:
                   Allows users to insert new references and reorder the references.
                   Other features are described in insertion page.
+                  
             * Edit reference:
                   Allow users to edit reference i.e. name, date, year or renumbering of references.
                   The features which are included in it is in page for edit reference.   
                   Direct to regeneration page.
                   This will allow users to be redirected to the page described in 2(a).
+                  
             * Deleting references.
                   Helps user to delete reference.
                   Users will be redirected to insert or edit page if they wants to add new references and edit numbering.
+                  
             * Edit format of reference
-                  American Meteorological Society (AMS) style
+                  o American Meteorological Society (AMS) style
                   o American psychological association(APA) referencing
                   o Chicago style
                   o Harvard referencing
