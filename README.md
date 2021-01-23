@@ -2,12 +2,12 @@
 
 This project is managed by students of IIESTS, Shibpur.
 
-This project is has motive to develop a working website which can manage all possible features to develop any kind of REFERENCE.
+This project chas motive to develop a working website which can manage all possible features to develop any kind of REFERENCE.
 
 The ultimate features of the project are:
-1\. Reference generator.
-2\. Reference developer.
-3\. Reference checker and editor.
+1. Reference generator.
+2. Reference developer.
+3. Reference checker and editor.
 
 The brief description of the project is given below:
 
