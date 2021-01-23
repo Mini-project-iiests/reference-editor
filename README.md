@@ -12,8 +12,8 @@ The ultimate features of the project are:
 The brief description of the project is given below:
 
 1. The website asks user to upload either a refernce data or a source for which reference can be scanned to editable mode.
-      The file can be of text format, word format, typed pdf format or any doc format whose texts can be scanned and edited.
-      The file can be uploaded or can be shared from g-drive or any common source from where file can be retrived directly.
+      * The file can be of text format, word format, typed pdf format or any doc format whose texts can be scanned and edited.
+      * The file can be uploaded or can be shared from g-drive or any common source from where file can be retrived directly.
       //The file can be made available to download with added page of reference if refernce to be created for the file.
 
 2.  The website then shows all available features which are:
