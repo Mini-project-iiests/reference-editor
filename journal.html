@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Reference_journal</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title"><strong>Journal-Article <right><a href="index.html">Back</a></right></strong></div>
+    <div class="content">
+      <form class="form">
+        <div class="user-details">
+          <!-- <div class="input-box">
+            <span class="details">Reference Number</span>
+            <input type="text" name="ref_no" id="ref_no" placeholder="Enter number" required>
+          </div> -->
+          <div class="input-box">
+            <span class="details">Author(s) of Article</span>
+            <input type="text" name="author" id="author" placeholder="Enter name(s)" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Year of Publication</span>
+            <input type="text" name="year" id="year" placeholder="Enter year" required>
+          </div>
+          <!-- <div class="input-box">
+            <span class="details">Title of Article</span>
+            <input type="text" name="title" id="title" placeholder="Enter title of Article" required>
+          </div> -->
+          <div class="input-box">
+            <span class="details">Title of Journal</span>
+            <input type="text" name="journal" id="journal" placeholder="Enter Title of Journal" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Volume</span>
+            <input type="text" name="vol_no" id="vol_no" placeholder="(Like 1st,2nd..)" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Issue Number</span>
+            <input type="text" name="issue" id="issue" placeholder="Enter the issue number" required>
+          </div>
+          <!-- <div class="input-box">
+            <span class="details">Name of Publisher</span>
+            <input type="text" name="pub_name" id="pub_name" placeholder="Enter name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Website Url(if web source)</span>
+            <input type="text" name="url" id="url" placeholder="Like - (www.google.com)">
+          </div> -->
+          <!-- <div class="input-box">
+            <span class="details">Page Reference</span>
+            <input type="text" name="page" id="page" placeholder="Say page no. where it appears" required>
+          </div> -->
+        </div>
+        <div class="button">
+          <button id="submit_btn">Submit</button><br><br>
+          <label><h2>Your input: </h2></label>
+          <p><span id='display'></span></span></p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script language="JavaScript">
+    document.getElementById("submit_btn").addEventListener("click", function(event){
+      event.preventDefault();
+      document.getElementById('display').innerHTML = 
+                        //document.getElementById("ref_no").value + '-' +
+                      document.getElementById("author").value  + ' (' + document.getElementById("year").value +')'
+                      // + ' "' + document.getElementById("title").value + '", ' 
+                      +', ' +'<i>' + document.getElementById("journal").value + '</i>' + ', '
+                      + document.getElementById("vol_no").value + '('+ document.getElementById("issue").value + ')' + '.' ;  
+                      // + document.getElementById("page").value 
+                      
+    });
+  </script>
+</body>
+</html>
