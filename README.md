@@ -20,10 +20,8 @@ The brief description of the project is given below:
 
         a. If the uploaded document has no reference page of itself, user should click on reference generator.
             Reference generator may have following features:
-            It can presents each page of the document and asks user to mark and number the places where references are marked and linked.
             It can show another file just beside the doc file to "add references, number references and edit references".
             It may suggest actual name if misspelled.
-            It may directly link the places where any reference belongs to.
             (REGENERATION CAN BE DONE IN SOFTWARES WHERE THE DOCUMENTS ARE GENERATED)
             
         b. If the uploaded document already have a reference page available, the features which can be provided are as follows:
