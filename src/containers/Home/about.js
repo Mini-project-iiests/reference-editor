@@ -12,7 +12,9 @@ class About extends Component {
         <Grid container className="px-16 py-12">
           <Grid item xs={6} className="pb-16">
             <div className="w-full flex flex-col items-center">
-              <img className="w-84 rounded-full filter drop-shadow-2xl border-8 border-gray-300" src="https://media-exp1.licdn.com/dms/image/C5603AQHDc8hfsjy_9Q/profile-displayphoto-shrink_400_400/0/1591710828647?e=1628121600&v=beta&t=Bbj4ZvYtPSrminbqqhrNIyHsPXJTH-XIKgFqdFXWo60" alt=""/>
+              <img
+                className="w-84 rounded-full filter drop-shadow-2xl border-8 border-gray-300"
+                src="/rohan.png" alt=""/>
               <div className="text-2xl font-bold my-8 flex items-center">
                 <span className="mr-4 text-gray-800">Rohan Gupta</span>
                 <a href="https://www.linkedin.com/in/rohan-gupta-07442917b/" target="_blank">
@@ -26,7 +28,7 @@ class About extends Component {
           </Grid>
           <Grid item xs={6} className="pb-16">
             <div className="w-full flex flex-col items-center">
-              <img className="w-84 rounded-full filter drop-shadow-2xl border-8 border-gray-300" src="https://media-exp1.licdn.com/dms/image/C5603AQHXn5Nw8BRr9g/profile-displayphoto-shrink_400_400/0/1613160558996?e=1628121600&v=beta&t=Da7HwijJ4gzUoxNO6KcKzGy47GLmZwjva7MmGF2szj8" alt=""/>
+              <img className="w-84 rounded-full filter drop-shadow-2xl border-8 border-gray-300" src="/sayak.png" alt=""/>
               <div className="text-2xl font-bold my-8 flex items-center">
                 <span className="mr-4 text-gray-800">Sayak Rana</span>
                 <a href="https://www.linkedin.com/in/sayak-rana-125a48192/" target="_blank">
@@ -37,7 +39,7 @@ class About extends Component {
                 </a>
               </div>
               <div className="text-lg font-semibold text-gray-600">
-                Report Designer / Script Writer
+                Code Designer / Script Writer
               </div>
             </div>
           </Grid>
@@ -45,7 +47,7 @@ class About extends Component {
             <div className="w-full flex flex-col items-center">
               <img
                 className="w-84 rounded-full filter drop-shadow-2xl border-8 border-gray-300"
-                src="https://media-exp1.licdn.com/dms/image/C5103AQEMIrKYdU_YmQ/profile-displayphoto-shrink_400_400/0/1576950398019?e=1628121600&v=beta&t=CBl3K2lGi6V5OdALET6jSGxv33d2XpTadUamyQxct30" alt=""/>
+                src="/malay.png" alt=""/>
               <div className="text-2xl font-bold my-8 flex items-center">
                 <span className="mr-4 text-gray-800">Malay Gain</span>
                 <a href="https://www.linkedin.com/in/malay-gain-43466419a/" target="_blank">
@@ -61,7 +63,7 @@ class About extends Component {
             <div className="w-full flex flex-col items-center">
               <img
                 className="w-84 rounded-full filter drop-shadow-2xl border-8 border-gray-300"
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQEbf5xJHFn3oA/profile-displayphoto-shrink_400_400/0/1605703317475?e=1628121600&v=beta&t=IM4ca-W_MLvTpCn7r3GizSGMeWRrl3MBpKAGNO8OyAo" alt=""/>
+                src="/shivam.png" alt=""/>
               <div className="text-2xl font-bold my-8 flex items-center">
                 <span className="mr-4 text-gray-800">Shivam Kumar</span>
                 <a href="https://www.linkedin.com/in/shivam-kumar5502/" target="_blank">
