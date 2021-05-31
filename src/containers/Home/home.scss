@@ -2,8 +2,16 @@
   min-height: 82.4vh;
 }
 
+.saveCont *{
+  outline: none !important;
+}
+
 .homeContainer {
   height: 100%;
+}
+
+path{
+  pointer-events: none;
 }
 
 .uploadWrapper {
@@ -61,6 +69,7 @@
 
   span{
     font-size: 2em;
+    letter-spacing: 4px;
     font-weight: bold;
     color: #121212;
   }
@@ -106,9 +115,17 @@
 }
 
 .refCont{
+  *::selection{
+    background: inherit;
+  }
+
   &:hover .tools{
     opacity: 1;
   }
+}
+
+.grabNum{
+  cursor: grab;
 }
 
 .refList{

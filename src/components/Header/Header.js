@@ -70,7 +70,7 @@ export default function Header(){
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Reference Editor
+            Reference Manager
           </Typography>
           <IconButton
             edge="start"
