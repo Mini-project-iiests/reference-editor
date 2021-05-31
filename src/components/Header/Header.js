@@ -68,8 +68,8 @@ export default function Header(){
       </List>
       <Divider />
       <List>
-        <ListItemLink href="#simple-list">
-          <ListItemText primary="Spam" />
+        <ListItemLink href="https://ref-generator-sayak.netlify.app/">
+          <ListItemText primary="Ref. Generator" />
         </ListItemLink>
       </List>
     </div>
