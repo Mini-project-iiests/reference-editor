@@ -18,7 +18,7 @@ class About extends Component {
               <div className="text-2xl font-bold my-8 flex items-center">
                 <span className="mr-4 text-gray-800">Rohan Gupta</span>
                 <a href="https://www.linkedin.com/in/rohan-gupta-07442917b/" target="_blank">
-                  <img className="w-6" src="https://static-exp1.licdn.com/sc/h/2if24wp7oqlodqdlgei1n1520" alt=""/>
+                  <img className="w-6" src="/linkedin.png" alt=""/>
                 </a>
               </div>
               <div className="text-lg font-semibold text-gray-600">
@@ -32,10 +32,10 @@ class About extends Component {
               <div className="text-2xl font-bold my-8 flex items-center">
                 <span className="mr-4 text-gray-800">Sayak Rana</span>
                 <a href="https://www.linkedin.com/in/sayak-rana-125a48192/" target="_blank">
-                  <img className="w-6" src="https://static-exp1.licdn.com/sc/h/2if24wp7oqlodqdlgei1n1520" alt=""/>
+                  <img className="w-6" src="/linkedin.png" alt=""/>
                 </a>
                 <a href="https://github.com/Mini-project-iiests/reference-editor/blob/master_sayak_ref/index.html" target="_blank">
-                  <img className="w-6 ml-2" src="https://img-premium.flaticon.com/png/512/25/25284.png?token=exp=1622492208~hmac=e8461d41ebec0f168e6d948af617fc3f" alt=""/>
+                  <img className="w-6 ml-2" src="link.png" alt=""/>
                 </a>
               </div>
               <div className="text-lg font-semibold text-gray-600">
@@ -51,7 +51,7 @@ class About extends Component {
               <div className="text-2xl font-bold my-8 flex items-center">
                 <span className="mr-4 text-gray-800">Malay Gain</span>
                 <a href="https://www.linkedin.com/in/malay-gain-43466419a/" target="_blank">
-                  <img className="w-6" src="https://static-exp1.licdn.com/sc/h/2if24wp7oqlodqdlgei1n1520" alt=""/>
+                  <img className="w-6" src="/linkedin.png" alt=""/>
                 </a>
               </div>
               <div className="text-lg font-semibold text-gray-600">
@@ -67,7 +67,7 @@ class About extends Component {
               <div className="text-2xl font-bold my-8 flex items-center">
                 <span className="mr-4 text-gray-800">Shivam Kumar</span>
                 <a href="https://www.linkedin.com/in/shivam-kumar5502/" target="_blank">
-                  <img className="w-6" src="https://static-exp1.licdn.com/sc/h/2if24wp7oqlodqdlgei1n1520" alt=""/>
+                  <img className="w-6" src="/linkedin.png" alt=""/>
                 </a>
               </div>
               <div className="text-lg font-semibold text-gray-600">
