@@ -1,8 +1,8 @@
-# reference-editor
+# Reference-Manager
 
 This project is managed by students of IIESTS, Shibpur.
 
-This project has motive to develop a working website which can manage all possible features to develop any kind of REFERENCE.
+This project chas motive to develop a working website which can manage all possible features to develop any kind of REFERENCE.
 
 The ultimate features of the project are:
 1. Reference generator.
@@ -11,11 +11,11 @@ The ultimate features of the project are:
 
 The brief description of the project is given below:
 
-1. The website asks user to upload either a reference data or a source for which reference can be scanned to editable mode.
+1. The website asks user to upload either a refernce data or a source for which reference can be scanned to editable mode.
       * The file can be of text format, word format, typed pdf format or any doc format whose texts can be scanned and edited.
-      * The file can be uploaded or can be shared from g-drive or any common source from where file can be retrieved directly.
+      * The file can be uploaded or can be shared from g-drive or any common source from where file can be retrived directly.
       * Later after editing the new file can be downloaded on clicking the save button.
-      //The file can be made available to download with added page of reference if reference to be created for the file.
+      //The file can be made available to download with added page of reference if refernce to be created for the file.
 
 2.  The website then shows all available features which are:
 
@@ -24,22 +24,29 @@ The brief description of the project is given below:
             It can show another file just beside the doc file to "add references, number references and edit references".
             It may suggest actual name if misspelled.
             (REGENERATION CAN BE DONE IN SOFTWARES WHERE THE DOCUMENTS ARE GENERATED)
-
+            
         b. If the uploaded document already have a reference page available, the features which can be provided are as follows:
-
+        
             * Inserting references:
                   Allows users to insert new references and reorder the references.
                   Other features are described in insertion page.
-
+                  
             * Edit reference:
                   Allow users to edit reference i.e. name, date, year or renumbering of references.
                   The features which are included in it is in page for edit reference.   
                   Direct to regeneration page.
                   This will allow users to be redirected to the page described in 2(a).
-
-            * Deleting references.
+                  
+            * Deleting references:
                   Helps user to delete reference.
                   Users will be redirected to insert or edit page if they wants to add new references and edit numbering.
-
-            * Changing the order of references
-                  Helps user to rearrange references by dragging the references
+                  
+            * Searching references:
+                  Allows user to search the related fields for a particular reference.
+                  
+            
+            * Reference Generator:
+                  This allows the user to generate different types of references depending on the source like for Books,Journal Articles,Websites etc.
+                  
+       
+            
