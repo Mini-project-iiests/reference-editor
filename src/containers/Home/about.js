@@ -39,7 +39,7 @@ class About extends Component {
                 </a>
               </div>
               <div className="text-lg font-semibold text-gray-600">
-                Code Designer / Script Writer
+                Enrollment No.- 510519108
               </div>
             </div>
           </Grid>
