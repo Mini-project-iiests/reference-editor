@@ -22,7 +22,7 @@ class About extends Component {
                 </a>
               </div>
               <div className="text-lg font-semibold text-gray-600">
-                UI Developer / System Designer
+                Enrollment No.- 510519052
               </div>
             </div>
           </Grid>
@@ -34,12 +34,12 @@ class About extends Component {
                 <a href="https://www.linkedin.com/in/sayak-rana-125a48192/" target="_blank">
                   <img className="w-6" src="/linkedin.png" alt=""/>
                 </a>
-                <a href="https://github.com/Mini-project-iiests/reference-editor/blob/master_sayak_ref/index.html" target="_blank">
-                  <img className="w-6 ml-2" src="link.png" alt=""/>
-                </a>
+//                 <a href="https://github.com/Mini-project-iiests/reference-editor/blob/master_sayak_ref/index.html" target="_blank">
+//                   <img className="w-6 ml-2" src="link.png" alt=""/>
+//                 </a>
               </div>
               <div className="text-lg font-semibold text-gray-600">
-                Code designer / Script Writer
+                Enrollment No.- 510519108
               </div>
             </div>
           </Grid>
@@ -55,7 +55,7 @@ class About extends Component {
                 </a>
               </div>
               <div className="text-lg font-semibold text-gray-600">
-                Code designer / Script Writer
+                Enrollment No.- 510519043
               </div>
             </div>
           </Grid>
@@ -71,7 +71,7 @@ class About extends Component {
                 </a>
               </div>
               <div className="text-lg font-semibold text-gray-600">
-                Report Maker / PPT Designer
+                Enrollment No.- 510519091
               </div>
             </div>
           </Grid>
