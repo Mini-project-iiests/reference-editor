@@ -61,6 +61,9 @@ export default function Header(){
               <ListItemText primary={text}/>
             </ListItem>))
         }
+        <ListItemLink href="#simple-list">
+          <ListItemText primary="Spam" />
+        </ListItemLink>
       </List>
     </div>
   );
