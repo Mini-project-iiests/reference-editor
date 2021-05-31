@@ -38,6 +38,10 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
+function ListItemLink(props) {
+  return <ListItem button component="a" {...props} />;
+}
+
 export default function Header(){
   const classes = useStyles();
   const [sidenav, setSidenav] = useState(false);
