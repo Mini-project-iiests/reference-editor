@@ -51,7 +51,7 @@ export default function Header(){
         {
           ['Home', 'About us'].map((text, index) => (
             <ListItem button={true} key={text} onClick={()=>{
-              console.log("Lol");
+              window.location = index%2==0 ? "/" : "/about";
             }}>
               <ListItemIcon>{
                 index % 2 === 0

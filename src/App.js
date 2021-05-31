@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 
 import Home from './containers/Home/home'
+import About from './containers/Home/about'
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
@@ -14,6 +15,7 @@ export default function App() {
         <Header/>
         <Switch>
           <Route exact path='/' component = {Home}/>
+          <Route exact path='/about' component = {About}/>
         </Switch>
         <Footer/>
       </div>

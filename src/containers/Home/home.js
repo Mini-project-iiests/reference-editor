@@ -26,7 +26,8 @@ class Home extends Component {
       uploaded: false,
       isAdding: false,
       textContent: "",
-      refs: []
+      refs: [],
+      isError: false
     };
   }
 
@@ -68,7 +69,13 @@ class Home extends Component {
     reader.onload = async (e) => {
       const text = (e.target.result);
       this.setState({fileContent: text}, ()=>{
-        this.parseText();
+        try{
+          this.parseText();
+        }catch(err){
+          this.setState({isError: true}, ()=>{
+
+          })
+        }
       });
     };
 
@@ -103,7 +110,7 @@ class Home extends Component {
 
   componentWillMount(){
     if(false){
-      this.setState({uploaded: true}, ()=>{
+      this.setState({isError: true}, ()=>{
         this.parseText();
       })
     }
@@ -258,7 +265,6 @@ class Home extends Component {
               <DropzoneArea
                 className="dropArea"
                 onChange={this.handleChange.bind(this)}
-                acceptedFiles={[".txt"]}
                 filesLimit={1}
                 showPreviews={false}
                 useChipsForPreview
@@ -267,11 +273,17 @@ class Home extends Component {
             <Button
               variant="contained"
               color="primary"
+              disabled={this.state.isError || !this.state.fileContent}
               onClick={()=>{
                 this.setState({uploaded: true})
               }}>
               Upload
             </Button>
+            {this.state.isError?(
+              <div className="text-red-600 font-bold my-8">
+                The file format is not valid
+              </div>
+            ):null}
           </div>
           {this.state.uploaded?(
             <div className="w-full p-2 grid grid-cols-3 gap-0 mb-2">
