@@ -9,7 +9,7 @@ This project is done by :
 * Sayak Rana
 * Shivam Kumar
 
-This project chas motive to develop a working website which can manage all possible features to develop any kind of REFERENCE.
+This project's main motive is to develop a working website which can manage all possible features to develop any kind of REFERENCE.
 
 The ultimate features of the project are:
 1. Reference generator.
