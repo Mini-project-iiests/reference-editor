@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 ><a href="https://refmanage.netlify.app/">Co-Fight</a></h1>
+  <h1 ><a href="https://refmanage.netlify.app/">Reference Manager</a></h1>
 </div>
 <hr>
 
