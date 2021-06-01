@@ -33,7 +33,6 @@ The brief description of the project is given below:
                   Allow users to edit reference i.e. name, date, year or renumbering of references.
                   The features which are included in it is in page for edit reference.   
                   Direct to regeneration page.
-                  This will allow users to be redirected to the page described in 2(a).
                   
             * Deleting references:
                   Helps user to delete reference.
