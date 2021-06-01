@@ -14,7 +14,7 @@ export default function Header(){
       <Container maxWidth="md">
         <Toolbar>
           <Typography variant="body1" color="inherit">
-            &copy; reference-editor
+            &copy; reference-manager
           </Typography>
         </Toolbar>
       </Container>
