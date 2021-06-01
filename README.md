@@ -3,7 +3,11 @@
 </div>
 <hr>
 
-This project is managed by students of IIEST, Shibpur.
+This project is done by :
+* Malay Gain
+* Rohan Gupta
+* Sayak Rana
+* Shivam Kumar
 
 This project chas motive to develop a working website which can manage all possible features to develop any kind of REFERENCE.
 
@@ -18,17 +22,8 @@ The brief description of the project is given below:
       * The file can be of text format, word format, typed pdf format or any doc format whose texts can be scanned and edited.
       * The file can be uploaded or can be shared from g-drive or any common source from where file can be retrived directly.
       * Later after editing the new file can be downloaded on clicking the save button.
-      //The file can be made available to download with added page of reference if refernce to be created for the file.
 
 2.  The website then shows all available features which are:
-
-        a. If the uploaded document has no reference page of itself, user should click on reference generator.
-            Reference generator may have following features:
-            It can show another file just beside the doc file to "add references, number references and edit references".
-            It may suggest actual name if misspelled.
-            (REGENERATION CAN BE DONE IN SOFTWARES WHERE THE DOCUMENTS ARE GENERATED)
-            
-        b. If the uploaded document already have a reference page available, the features which can be provided are as follows:
         
             * Inserting references:
                   Allows users to insert new references and reorder the references.
