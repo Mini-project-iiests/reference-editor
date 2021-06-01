@@ -68,7 +68,7 @@ export default function Header(){
       </List>
       <Divider />
       <List>
-        <ListItemLink href="index.html">
+        <ListItemLink href="src/components/Header/index.html">
           <ListItemText primary="Ref. Generator" />
         </ListItemLink>
       </List>
