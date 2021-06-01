@@ -1,6 +1,9 @@
-# Reference-Manager
+<div align="center">
+  <h1 ><a href="https://refmanage.netlify.app/">Co-Fight</a></h1>
+</div>
+<hr>
 
-This project is managed by students of IIESTS, Shibpur.
+This project is managed by students of IIEST, Shibpur.
 
 This project chas motive to develop a working website which can manage all possible features to develop any kind of REFERENCE.
 
