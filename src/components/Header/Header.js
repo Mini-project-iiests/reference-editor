@@ -94,7 +94,6 @@ export default function Header(){
             <MenuIcon/>
           </IconButton>
           <Drawer anchor="right" open={sidenav} onClick={()=>{
-            // console.log("Nice try")
             setSidenav(false)
           }}>
             <SideNav/>
